@@ -48,6 +48,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_SHIPPING_API_LEVEL := 30
 
+# Wifi Overlay
+PRODUCT_PACKAGES += \
+    OnePlus8TWifiOverlay
+
 # Inherit from oneplus sm8250-common
 $(call inherit-product, device/oneplus/sm8250-common/common.mk)
 
