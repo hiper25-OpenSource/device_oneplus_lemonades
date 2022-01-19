@@ -23,6 +23,7 @@ $(call inherit-product, device/oneplus/kebab/device.mk)
 
 # Inherit some common Arrow stuff.
 $(call inherit-product, vendor/arrow/config/common.mk)
+DEVICE_MAINTAINER := hiper25
 
 PRODUCT_NAME := arrow_kebab
 PRODUCT_DEVICE := kebab
