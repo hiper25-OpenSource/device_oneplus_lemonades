@@ -23,7 +23,7 @@ DEVICE_PATH := device/oneplus/kebab
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
 # Display
-TARGET_SCREEN_DENSITY := 450
+TARGET_SCREEN_DENSITY := 420
 
 # Kernel
 TARGET_KERNEL_CONFIG := kebab_defconfig
