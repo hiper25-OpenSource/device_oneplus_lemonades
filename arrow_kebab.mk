@@ -34,10 +34,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=OnePlus8T \
-    PRODUCT_NAME=OnePlus8T_EEA \
-    PRIVATE_BUILD_DESC="OnePlus8T-user 11   release-keys"
-
-BUILD_FINGERPRINT := OnePlus/OnePlus8T_EEA/OnePlus8T:11/RP1A.201005.001/2011101425:user/release-keys
+    PRODUCT_NAME=OnePlus8T
 
 # ArrowOS additions
 $(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
