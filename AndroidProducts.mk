@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_kebab.mk
+    $(LOCAL_DIR)/arrow_lemonades.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_kebab-user \
-    arrow_kebab-userdebug \
-    arrow_kebab-eng
+    arrow_lemonades-user \
+    arrow_lemonades-userdebug \
+    arrow_lemonades-eng

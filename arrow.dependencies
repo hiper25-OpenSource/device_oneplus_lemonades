@@ -4,7 +4,7 @@
     "target_path": "device/oneplus/sm8250-common"
   },
   {
-    "repository": "android_vendor_oneplus_kebab",
-    "target_path": "vendor/oneplus/kebab"
+    "repository": "android_vendor_oneplus_lemonades",
+    "target_path": "vendor/oneplus/lemonades"
   }
 ]
