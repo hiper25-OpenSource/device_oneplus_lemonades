@@ -17,7 +17,7 @@
 # Inherit from oneplus sm8250-common
 -include device/oneplus/sm8250-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/kebab
+DEVICE_PATH := device/oneplus/lemonades
 
 # Als correction
 SOONG_CONFIG_ONEPLUS_KONA_SENSORS_ALS_POS_L := 680
@@ -51,4 +51,4 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 
 # inherit from the proprietary version
--include vendor/oneplus/kebab/BoardConfigVendor.mk
+-include vendor/oneplus/lemonades/BoardConfigVendor.mk

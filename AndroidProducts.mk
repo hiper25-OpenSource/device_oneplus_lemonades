@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/kscope_kebab.mk
+    $(LOCAL_DIR)/kscope_lemonades.mk
 
 COMMON_LUNCH_CHOICES := \
-    kscope_kebab-user \
-    kscope_kebab-userdebug \
-    kscope_kebab-eng
+    kscope_lemonades-user \
+    kscope_lemonades-userdebug \
+    kscope_lemonades-eng
