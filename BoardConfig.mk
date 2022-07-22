@@ -32,6 +32,7 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/init/fstab.qcom
+TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 
 # Inherit from oneplus sm8250-common
 -include device/oneplus/sm8250-common/BoardConfigCommon.mk
